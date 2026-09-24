@@ -24,19 +24,20 @@ function ProjectUi() {
           key={item.name}
           variants={items}
           whileHover={{ scale: 1.05, y: -5 }}
-          className="group bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border border-white/30 dark:border-gray-800 rounded-2xl p-5 shadow-lg hover:shadow-2xl transition-all"
+          className="group bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border border-white/30 dark:border-gray-800 rounded-2xl p-5 shadow-lg grid grid-cols- sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full hover:shadow-2xl transition-all"
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
-            <h1>{item.name} </h1>
-            <h1>{item.links}</h1>
-            <div className="relative w-full h-32 mb-4 overflow-hidden rounded-xl">
+          <div>
+                 <div className="relative w-full h-32 mb-4 overflow-hidden rounded-xl">
               <Image
-                src={item.images}
+                src={item.image}
                 fill
                 alt={item.name}
                 className="object-cover group-hover:scale-110 transition-transform duration-300"
               />
-            </div>{" "}
+            </div>
+            <h1>{item.name} </h1>
+            <h1>{item.link}</h1>
+       
           </div>
         </motion.div>
       ))}

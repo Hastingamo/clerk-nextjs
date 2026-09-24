@@ -21,7 +21,7 @@ function Headerss() {
     <>
       <div className=" text-white flex gap-10 flex-row p-4 bg-[#06142E]">
         <Link href="/">
-                  <h1>home page</h1>
+                  <h1>hastings moses page</h1>
 
         </Link>
         <Link href="/Project">
