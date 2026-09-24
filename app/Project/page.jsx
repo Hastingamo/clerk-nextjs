@@ -1,7 +1,7 @@
-"use server"
+"use client";
 import React from 'react'
 import ProjectUi from './ProjectUi'
-const Page = async () => {
+const Page = () => {
   return (
     <div>
       <ProjectUi/>
