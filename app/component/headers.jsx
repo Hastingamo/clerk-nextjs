@@ -27,7 +27,7 @@ function Headerss() {
         <Link href="/Project">
           <h1>Project page</h1>
         </Link>
-        <Link href="/#Services">
+        <Link href="#services">
           <h1>Services</h1>
         </Link>
         <Link href="/SignUp">
@@ -35,6 +35,9 @@ function Headerss() {
         </Link>
         <Link href="/Appointment">
           <h1>Appointment</h1>
+        </Link>
+            <Link href="#about">
+          <h1>About Me</h1>
         </Link>
 
         

@@ -69,7 +69,7 @@ export default function Home() {
       </section>
 
       {/* About & Skills Section */}
-      <section className="py-16 px-6 bg-slate-900/60 border-y border-slate-800">
+      <section id="about" className="py-16 px-6 bg-slate-900/60 border-y border-slate-800">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold text-white mb-4">About Me</h2>
@@ -100,7 +100,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-6 max-w-6xl mx-auto w-full">
+      <section id="services" className="py-20 px-6 max-w-6xl mx-auto w-full">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-3">What I Offer</h2>
           <p className="text-slate-400 max-w-xl mx-auto">
