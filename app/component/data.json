@@ -1,22 +1,29 @@
 [
-    {
+  {
     "id": 1,
-    "name": "movie/tv series website ",
+    "name": "Movie & TV Series Hub",
+    "description": "An interactive movie and TV series streaming platform featuring trending titles, detailed cast info, search, and responsive streaming UI.",
     "link": "https://dams-movie-website.vercel.app/",
-    "image": ""
-    },
-
-{
+    "image": "",
+    "category": "Entertainment",
+    "tags": ["React", "Next.js", "Tailwind CSS", "TMDB API"]
+  },
+  {
     "id": 2,
-    "name": "food/receipe webiste",
+    "name": "Culinary Recipe Finder",
+    "description": "A feature-rich food recipe application offering dish discovery, ingredient filtering, cooking guides, and step-by-step instructions.",
     "link": "https://dams-food-websites.vercel.app/",
-    "image": ""
-},
-{
+    "image": "",
+    "category": "Food & Life",
+    "tags": ["React", "Tailwind CSS", "REST API", "Framer Motion"]
+  },
+  {
     "id": 3,
-    "name": "where to buy and sell crypto currrency",
+    "name": "BossVnn Crypto Marketplace",
+    "description": "A modern cryptocurrency trading portal to discover, buy, and sell digital assets with real-time analytics and user dashboard.",
     "link": "https://bossvnn.vercel.app/",
-    "image":"/Images/bossvnn.png"
-}
-
+    "image": "/Images/bosssvnn.png",
+    "category": "Crypto & Fintech",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Web3 UI"]
+  }
 ]
