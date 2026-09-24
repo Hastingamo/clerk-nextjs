@@ -1,6 +1,7 @@
+"use server"
 import React from 'react'
 import ProjectUi from './ProjectUi'
-function Page() {
+const Page = async () => {
   return (
     <div>
       <ProjectUi/>

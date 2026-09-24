@@ -3,6 +3,7 @@ import React from 'react'
 import data from "../component/data.json";
 // import community from "../Component/community.json";
 import {motion} from "framer-motion";
+import Image from 'next/image';
 function ProjectUi() {
 
 const container = {
@@ -27,11 +28,15 @@ const items = {
             whileHover={{ scale: 1.05, y: -5 }}
             className="group bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border border-white/30 dark:border-gray-800 rounded-2xl p-5 shadow-lg hover:shadow-2xl transition-all"
           >
+   <div>
+                        <h1>{item.name}  </h1>
+                        <h1>{item.links}</h1>
+                            <Image>{item.images}</Image>
+                        </div>
+
             </motion.div>
 
-                    <div>
-                        <h1
-                        </div>
+                 
 
                 ))
             }

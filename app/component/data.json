@@ -3,20 +3,20 @@
     "id": 1,
     "name": "movie/tv series website ",
     "link": "https://dams-movie-website.vercel.app/",
-    "image": "",
+    "image": ""
     },
 
 {
     "id": 2,
     "name": "food/receipe webiste",
     "link": "https://dams-food-websites.vercel.app/",
-    "image": "",
+    "image": ""
 },
 {
     "id": 3,
     "name": "where to buy and sell crypto currrency",
     "link": "https://bossvnn.vercel.app/",
-    "image":"",
+    "image":""
 }
 
 ]
